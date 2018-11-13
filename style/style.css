@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Helvetica;
+    src: ulr("../Font/HelveticaRoundedLTStd-Bd.otf");
+}
+
+* {
+    font-family: Helvetica;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #38A1F3;
+}
+
+h1 {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+a {
+    color: #fff;
+    font-size: 50px;
+    position: fixed;
+    margin-left: 20px;
+}
+
+.quote {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 25px;
+    font-style: italic;
+}
+
+.author {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 25px;
+    font-style: oblique;
+}
+
+.trigger {
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #1046bf;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: 700;
+    color: #fff;
+}
+
+main {
+    text-align: center;
+    margin-top: 200px;
+}
